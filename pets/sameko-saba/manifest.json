@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "name": "Sameko Saba",
+  "description": "原版：细节更丰富的动漫 Q 版",
+  "spritesheet": "spritesheet.png",
+  "sprite_version": 2,
+  "image": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1536,
+    "height": 2288
+  },
+  "layout": {
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208,
+    "frames_per_row": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6,
+      8,
+      8
+    ]
+  },
+  "standard_states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "standard_frame_count": 57,
+  "look_directions_degrees_clockwise_from_up": [
+    0,
+    22.5,
+    45,
+    67.5,
+    90,
+    112.5,
+    135,
+    157.5,
+    180,
+    202.5,
+    225,
+    247.5,
+    270,
+    292.5,
+    315,
+    337.5
+  ],
+  "spritesheet_sha256": "828089036472cf52a8a3c334f4425760f7db252f3659b0557eea934de13a4eb2",
+  "validation": {
+    "layout_passed": true,
+    "quality_review_passed": true,
+    "jump_peak_lift_pixels": 30
+  }
+}
